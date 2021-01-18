@@ -1,4 +1,4 @@
-console.log();
+'use strict';
 
 
-console.log();
+

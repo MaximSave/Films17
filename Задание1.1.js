@@ -66,3 +66,12 @@ if(!hidden) {
 }
 
 showMyDB(personalMovieDB.privat);
+
+function writeYourGeners () {
+
+  for(let i = 1; i<=3 ;i++){
+    personalMovieDB.genres[i - 1] = prompt(`Ваш любымый жанр под номером ${i}`);
+  }
+}
+
+writeYourGeners ();

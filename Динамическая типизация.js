@@ -6,4 +6,9 @@ const box = document.getElementById('box'),
 	  hearts = document.querySelectorAll('heart'),
 	  one = document.querySelector('.heart');
 
-	  console.dir(box);
+	  box.style.backgroundColor = 'blue';
+	  box.style.width = '500px';
+	 
+
+	  btns[1].style.borderRadius = '100%';
+	  circles[1].style.backgroundColor = 'red';

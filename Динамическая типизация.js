@@ -4,7 +4,8 @@ const box = document.getElementById('box'),
 	  btns = document.getElementsByTagName('button'),
 	  circles = document.getElementsByClassName('circle'),
 	  hearts = document.querySelectorAll('.heart'),
-	  one = document.querySelector('.heart');
+	  one = document.querySelector('.heart'),
+	  wrapper = document.querySelector('.wrapper');
 
 	//   box.style.backgroundColor = 'blue';
 	//   box.style.width = '500px';
@@ -28,8 +29,21 @@ const div = document.createElement('div');
 
 div.classList.add('black');
 
-do
+wrapper.prepend(div);
 
+// hearts[0].before(div);
+// hearts[0].after(div);
+
+
+// circles[0].remove();
+
+// hearts[0].replaceWith(circles[0]);
+
+div.innerHTML = "<h1>Hello world!</h1>";
+
+// div.textContent = "Hello";
+
+div.insertAdjacentHTML('beforebegin', '<h2>Hello</h2>');
 
 
 
